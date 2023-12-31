@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T12:26:44.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gwCQZTfM4_DTGnzKW_9A" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T12:28:46.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Tv3bf2bsuM5p_YMjreIR" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1302" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -83,35 +83,35 @@
         <mxCell id="hHCshDSLqKsfYGKEcd75-13" value="&lt;br&gt;动态优先级" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="250" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-29" target="hHCshDSLqKsfYGKEcd75-30">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;arcSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-29" target="hHCshDSLqKsfYGKEcd75-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-29" value="对就绪队列中的线程按优先级排序" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="320" width="100" height="50" as="geometry" />
+        <mxCell id="hHCshDSLqKsfYGKEcd75-29" value="对就绪队列中的线程按优先级排序" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;arcSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="320" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-30" target="hHCshDSLqKsfYGKEcd75-34">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;arcSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-30" target="hHCshDSLqKsfYGKEcd75-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-30">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;arcSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-30" value="优先级最高的线程获得时间片，优先级-1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="hHCshDSLqKsfYGKEcd75-30" value="优先级最高的线程获得时间片，优先级-1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;arcSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-34" target="hHCshDSLqKsfYGKEcd75-44">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;arcSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-34" target="hHCshDSLqKsfYGKEcd75-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-46" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="hHCshDSLqKsfYGKEcd75-45">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-46" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;arcSize=10;" vertex="1" connectable="0" parent="hHCshDSLqKsfYGKEcd75-45">
           <mxGeometry x="-0.1238" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-34" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;片段队列中是否还有进程" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="590" width="120" height="40" as="geometry" />
+        <mxCell id="hHCshDSLqKsfYGKEcd75-34" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;判断队列中是否还有进程" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;arcSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="590" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-40" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-34" target="hHCshDSLqKsfYGKEcd75-29">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-40" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;arcSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hHCshDSLqKsfYGKEcd75-34" target="hHCshDSLqKsfYGKEcd75-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="560" as="sourcePoint" />
             <mxPoint x="30" y="330" as="targetPoint" />
@@ -121,19 +121,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-43" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="hHCshDSLqKsfYGKEcd75-40">
+        <mxCell id="hHCshDSLqKsfYGKEcd75-43" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;arcSize=10;" vertex="1" connectable="0" parent="hHCshDSLqKsfYGKEcd75-40">
           <mxGeometry x="-0.092" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-42" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hHCshDSLqKsfYGKEcd75-44" value="调度结束" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="hHCshDSLqKsfYGKEcd75-44" value="调度结束" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;labelBackgroundColor=none;arcSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
